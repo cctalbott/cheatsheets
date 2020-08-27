@@ -155,6 +155,8 @@ command | description
 
 # UPDATE
 
+[https://github.com/amix/vimrc](https://github.com/amix/vimrc)
+
 \> cd ~/.vim_runtime
 
 \> git pull --rebase
