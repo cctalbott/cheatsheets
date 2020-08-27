@@ -25,14 +25,13 @@ qaq | clear register a
 
 ## FileBrowsing
 
-command | description 
---- |:---
+command | description | alt
+--- |:--- |:---
 :NERDTree | directory tree browser
 :CtrlP | fuzzy file search
 :MRU | recently updated files
 :pwd | present working directory
-:cd %:p:h | change to directory of currently open file
-,cd
+:cd %:p:h | change to directory of currently open file | ,cd
 :lcd %:p:h | same as above but only changes directory for active window
 :tabnew | open new tab
 :vert | open in split vertical
@@ -93,12 +92,12 @@ $ | end of line
 
 command | description 
 --- |:---
->> | indent line
+\>> | indent line
 5>> | indent 5 lines
 V jj > | indent visually selected lines
->% | when on cursor on curly braces indent braces and block
+\>% | when on cursor on curly braces indent braces and block
 ]p | align pasted block with surrounding text
->i { | indent block within - sub [ or ( accordingly
+\>i { | indent block within - sub [ or ( accordingly
 
 ## SearchReplace
 
@@ -116,7 +115,7 @@ command | description
 --- |:---
 ma | a-z sets a marker
 'a | a-z goes to start of line with corresponding marker
-`a | a-z goes to corresponding marker position
+\`a | a-z goes to corresponding marker position
 :marks | list marks
 
 # VISUAL MODE
@@ -156,5 +155,5 @@ command | description
 
 # UPDATE
 
-> cd ~/.vim_runtime
-> git pull --rebase
+\> cd ~/.vim_runtime
+\> git pull --rebase
