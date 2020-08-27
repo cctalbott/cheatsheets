@@ -1,0 +1,26 @@
+The cow jumped over the moon and fell back down.
+
+0123456789
+ABCDEFGHIJKLMNOPQRSTUVXYZ
+abcdefghijklmnopqrstuvxyz
+}{~`!@#$%^&*()_-+=:;"'<,>.?/|\*
+
+codeBlock() {
+  I love
+  braces
+}
+
+array [
+  I love
+  arrays
+]
+
+parenthesis (
+  I love
+  parenthesis
+)
+
+def
+  I love
+  defining
+end
