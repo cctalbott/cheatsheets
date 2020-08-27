@@ -2,24 +2,26 @@
 
 ## Actions
 
-h,j,k,l                  = left,down,up,right
-y                        = yank or copy; yy is by line
-p                        = paste
-i                        = insert
-a                        = append or insert after
-c                        = change
-d or x                   = delete, dd is by line
-V/v                      = v visual (character based); V Visual (by line)
-ggVG                     = select all
-:w/,w                    = write
-:wa                      = write all (saves all open files)
-:q                       = quit
-:e                       = edit or reload
-"+                       = access system clipboard
-!                        = force
-qa                       = q starts record a is registry to record to q stops
-qaq                      = clear register a
-@a                       = @ calls recording, a is the registry to play
+command | description 
+--- | ---
+h,j,k,l | left,down,up,right
+y | yank or copy; yy is by line
+p | paste
+i | insert
+a | append or insert after
+c | change
+d or x | delete, dd is by line
+V/v | v visual (character based); V Visual (by line)
+ggVG | select all
+:w/,w | write
+:wa | write all (saves all open files)
+:q | quit
+:e | edit or reload
+"+ | access system clipboard
+! | force
+qa | q starts record a is registry to record to q stops
+qaq | clear register a
+@a | @ calls recording, a is the registry to play
 
 ## FileBrowsing
 
