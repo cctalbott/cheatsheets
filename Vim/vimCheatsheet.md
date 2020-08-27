@@ -103,7 +103,7 @@ V jj > | indent visually selected lines
 
 command | description 
 --- |:---
-* and # | * search forward for word under cursor # backward
+\* and # | * search forward for word under cursor # backward
 :Ag patt dir | search cwd for pattern
 /pattern | search for a pattern
 N | repeat search in opposite direction
@@ -124,7 +124,7 @@ command | description
 --- |:---
 ," or ,' | double or single quote highlighted text
 ,( or ,[ or ,{ | parenthesis, bracket or curly brace highlighted text
-+ | expand selection, while - contracts it
+\+ | expand selection, while - contracts it
 zf | Manually fold selection, zo open fold, zd delete fold, zR open all folds, zr open level of folds, zM close all folds, zm close level of folds
 za | Toggle folds
 Ctrl+v Shift+i | Ctrl+v arrow to select block then Shift+i to insert comment then Esc to insert block comments
@@ -156,4 +156,5 @@ command | description
 # UPDATE
 
 \> cd ~/.vim_runtime
+
 \> git pull --rebase
