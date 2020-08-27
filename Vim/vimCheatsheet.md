@@ -3,7 +3,7 @@
 ## Actions
 
 command | description 
---- | ---
+*--- |*---
 h,j,k,l | left,down,up,right
 y | yank or copy; yy is by line
 p | paste
